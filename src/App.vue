@@ -24,7 +24,7 @@
     </div>
     <p>
       計算間違ってたらごめんなさい。issueに起票お願いします↓<br/>
-      <a href="https://github.com/modeverv/bpm_ppq_tick/issues">issue</a>
+      <a href="https://github.com/modeverv/bpm_ppq_tick/issues" target="_blank">issue</a>
     </p>
   </div>
 </template>
