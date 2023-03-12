@@ -23,7 +23,7 @@
       </table>
     </div>
     <p>
-      計算間違ってたらごめんなさい。issueに起票お願いします↓
+      計算間違ってたらごめんなさい。issueに起票お願いします↓<br/>
       <a href="https://github.com/modeverv/bpm_ppq_tick/issues">issue</a>
     </p>
   </div>
