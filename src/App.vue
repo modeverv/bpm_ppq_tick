@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>BPM-PPQ-TICK</h1>
+    <h1>BPM-PPQ-TICK-ms</h1>
     <div>
       <p>BPM: <input v-model="bpm" type="number"></p>
       <p>midi分解能(ppq): <input v-model="ppq" type="number"></p>
