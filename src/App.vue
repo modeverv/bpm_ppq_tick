@@ -22,6 +22,10 @@
         </tr>
       </table>
     </div>
+    <p>
+      計算間違ってたらごめんなさい。issueに起票お願いします↓
+      <a href="https://github.com/modeverv/bpm_ppq_tick/issues">issue</a>
+    </p>
   </div>
 </template>
 
