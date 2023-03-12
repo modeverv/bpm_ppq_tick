@@ -7,6 +7,7 @@
       <p>1 bpm: {{bpm1}} ms</p>
       <p>1 tick: {{tick1.toFixed(2)}} ms</p>
       <p>10 tick: {{tick10.toFixed(2)}} ms</p>
+      <p>tick calc: <input v-model="tick" type="number"> is {{calcedTick.toFixed(2)}} ms</p>
     </div>
     <div>
       <table>
@@ -37,6 +38,7 @@ export default {
     return {
       bpm: 60,
       ppq: 480,
+      tick: 15,
     }
   },
   computed: {
@@ -96,6 +98,15 @@ export default {
         }
       },this)
       return define
+    },
+    calcedTick() {
+      let result = NaN
+      try{
+        result = this.tick * this.tick1
+      } catch (e) {
+        // noop
+      }
+      return result
     }
   },
   components: {
